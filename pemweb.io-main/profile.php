@@ -21,8 +21,6 @@ if($_SESSION['role'] != 'user') {
 </style>
 <body>
     <h1>Selamat datang <?php echo $_SESSION['name'];?> </h1>
-    <p><a href="create.php">belanja sekarang</a></p>
-    <p><a href="show.php">atau ingin lihat lihat produk?</a></p>
     <a href="./backend/logout.php">Logout</a>
 </body>
 </html>
